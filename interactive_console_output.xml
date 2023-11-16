@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.12 on win32)" generated="20231115 13:33:09.288" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Henri\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Read table from CSV" library="RPA.Tables">
+<doc>Read a CSV file as a table.</doc>
+<msg timestamp="20231115 13:33:51.113" level="FAIL">Keyword 'RPA.Tables.Read table from CSV' expected 1 to 7 arguments, got 0.</msg>
+<status status="FAIL" starttime="20231115 13:33:51.112" endtime="20231115 13:33:51.113"/>
+</kw>
+<kw name="Read table from CSV" library="RPA.Tables">
+<arg>orders.CSV</arg>
+<doc>Read a CSV file as a table.</doc>
+<msg timestamp="20231115 13:34:04.954" level="FAIL">FileNotFoundError: [Errno 2] No such file or directory: 'orders.CSV'</msg>
+<status status="FAIL" starttime="20231115 13:34:04.952" endtime="20231115 13:34:04.956"/>
+</kw>
+<status status="PASS" starttime="20231115 13:33:09.407" endtime="20231115 13:34:40.234"/>
+</kw>
+<status status="PASS" starttime="20231115 13:33:09.406" endtime="20231115 13:34:40.234"/>
+</test>
+<status status="PASS" starttime="20231115 13:33:09.308" endtime="20231115 13:34:40.235"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
